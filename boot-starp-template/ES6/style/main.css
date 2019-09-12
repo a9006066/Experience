@@ -1,0 +1,91 @@
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button,textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+  }
+  img {border: 0;}
+  :focus {outline: 0;}
+  h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+  input, button, textarea,select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+  }
+  code, kbd, samp, tt {font-size: 100%;}
+  
+  /*purpose To enable resizing for IE */
+  /*branch For IE6-Win, IE7-Win */
+  input, button, textarea, select {*font-size: 100%;}
+  body {line-height: 180%;}
+  ol, ul, li {list-style: none;}
+  :link, :visited , ins {text-decoration: none;}
+  blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+  
+  /*HTML5 tag*/
+  section, article, aside, footer, header, nav, main {
+    display:block;
+  }
+
+
+@media screen and (min-width:400px) and (min-width:700px){
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.container{
+    width:1200px;
+    margin: 0 ,auto
+}
+
+.row{
+    background-color:paleturquoise;
+    width: 500px;
+    height: 50%;
+    margin: 0 auto ;
+    padding: 4rem 0;
+    text-align: center;
+
+
+}
+
+.row__container{
+ height: 30px;   
+ background-color: palevioletred;
+ text-align: center;
+} 
+
+
+.menu{
+  /* margin: 0 auto;
+  display: table; */
+  display: inline-block;
+}
+
+
+
+.menu li{
+    font-weight: bold;
+    float: left;
+    list-style:none;
+    height: 30px;
+    line-height: 30px;
+    
+}
+
+.col {
+    /* border: slategrey 1px solid; */
+    background-color:slategrey;
+    width: 60%;
+    margin: 0 auto;
+  }
+
